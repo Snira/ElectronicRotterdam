@@ -2,16 +2,10 @@
 
 @section('content')
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
-                <div class="panel-body">
-                    You are logged in!
-                </div>
-            </div>
+    <h1 class="h1 text-center">Title</h1>
+        <div class="search">
+            <input id="search" class="center-block" type="search">
         </div>
-    </div>
+
 </div>
 @endsection
