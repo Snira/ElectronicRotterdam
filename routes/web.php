@@ -18,4 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
-Route::get('/events', 'EventController@show');
+Route::get('/events', [ 'as' => 'events', 'uses' => 'EventController@index' ]);
+Route::get('/events/{event}', [ 'as' => 'event.select', 'uses' => 'EventController@show' ]);

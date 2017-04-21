@@ -9,3 +9,20 @@
     font-weight: normal;
     color: inherit;
 }
+#navbar{
+    background: url("/bg.jpg");
+    height: 500px;
+}
+#navbar-brand{
+    color: white;
+
+}
+iframe{
+    position: inherit;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+p{
+
+    margin-bottom: 50px;
+}
